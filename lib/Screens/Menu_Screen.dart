@@ -46,7 +46,7 @@ class MenuScreen extends StatelessWidget {
       backgroundColor: Colors.indigo,
       body: SafeArea(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
         ),
       ),
     );
