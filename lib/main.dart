@@ -36,7 +36,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return ZoomDrawer(slideWidth: MediaQuery.of(context).size.width*.65
+    return ZoomDrawer(slideWidth: MediaQuery.of(context).size.width*.65,
       mainScreen: PaymentScreen(),
       menuScreen: MenuScreen(),
     );
