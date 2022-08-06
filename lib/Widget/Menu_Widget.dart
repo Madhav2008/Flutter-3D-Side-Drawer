@@ -7,7 +7,7 @@ class MenuWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return IconButton(
       onPressed: () {},
-      icon: icon,
+      icon: Icon(),
     );
   }
 }
