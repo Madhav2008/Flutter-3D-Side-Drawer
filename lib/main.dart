@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(backgroundColor: Colors.indigo,
       body: MaterialApp(
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
