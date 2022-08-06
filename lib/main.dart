@@ -36,7 +36,8 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return ZoomDrawer(style: DrawerStyle.style1,
+    return ZoomDrawer(
+      style: DrawerStyle.style1,
       mainScreen: PaymentScreen(),
       menuScreen: MenuScreen(),
     );
