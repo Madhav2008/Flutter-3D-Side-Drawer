@@ -60,6 +60,8 @@ class MenuScreen extends StatelessWidget {
   }
 
   Widget buildMenuItem(MenuItem item) {
-    return ListTile(minLeadingWidth: 20,);
+    return ListTile(
+      minLeadingWidth: 20,
+    );
   }
 }
