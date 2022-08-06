@@ -45,7 +45,9 @@ class MenuScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.indigo,
       body: SafeArea(
-        child: Column(crossAxisAlignment: CrossAxisAlignment.center,),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+        ),
       ),
     );
   }
