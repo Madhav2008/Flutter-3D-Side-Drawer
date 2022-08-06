@@ -12,7 +12,7 @@ class MenuItems {
   );
   static const notifications = MenuItem(
     'Notifications',
-    Icons.payment,
+    Icons.notifications,
   );
   static const help = MenuItem(
     'Help',
