@@ -57,5 +57,5 @@ class MenuScreen extends StatelessWidget {
         ),
       ),
     );
-  }Widget
+  }Widget build{}
 }
