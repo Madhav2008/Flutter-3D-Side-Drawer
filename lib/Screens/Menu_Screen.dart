@@ -48,7 +48,7 @@ class MenuScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Spacer(),
+            Spacer(),...MenuItems.all
             Spacer(
               flex: 2,
             ),
