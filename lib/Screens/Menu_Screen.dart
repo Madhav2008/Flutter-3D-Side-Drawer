@@ -20,7 +20,7 @@ class MenuItems {
   );
   static const aboutUs = MenuItem(
     'About Us',
-    Icons.payment,
+    Icons.info_outline,
   );
   static const rateUs = MenuItem(
     'Rate Us',
