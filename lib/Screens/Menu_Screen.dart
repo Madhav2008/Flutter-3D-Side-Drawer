@@ -6,7 +6,7 @@ class MenuItems {
     'Payment',
     Icons.payment,
   );
-  static const payment = MenuItem(
+  static const promos = MenuItem(
     'Payment',
     Icons.payment,
   );
