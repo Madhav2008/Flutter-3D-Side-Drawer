@@ -8,7 +8,7 @@ class MenuItems {
   );
   static const promos = MenuItem(
     'Promos',
-    Icons.payment,
+    Icons.card_giftcard,
   );
   static const notifications = MenuItem(
     'Notifications',
