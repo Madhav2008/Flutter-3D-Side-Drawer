@@ -19,7 +19,7 @@ class MenuItems {
     Icons.payment,
   );
   static const aboutUs = MenuItem(
-    'aboutUs',
+    'about Us',
     Icons.payment,
   );
   static const rateUs = MenuItem(
