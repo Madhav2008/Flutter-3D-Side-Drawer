@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return ZoomDrawer(
-      slideWidth: MediaQuery.of(context).size.width,
+      // slideWidth: MediaQuery.of(context).size.width,
       mainScreen: PaymentScreen(),
       menuScreen: MenuScreen(),
     );
