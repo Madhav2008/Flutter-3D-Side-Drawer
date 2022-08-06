@@ -7,7 +7,7 @@ class PaymentScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,title: ,
+        backgroundColor: Colors.blue,title: Text(data),
       ),
     );
   }
