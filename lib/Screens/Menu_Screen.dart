@@ -27,6 +27,4 @@ class MenuScreen extends StatelessWidget {
       ),
     );
   }
-
- 
 }
