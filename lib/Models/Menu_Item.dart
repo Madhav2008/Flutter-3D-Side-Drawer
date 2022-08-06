@@ -4,7 +4,7 @@ class MenuItem {
   final String title;
   final IconData icon;
 
-  const MenuItem(
+  MenuItem(
     this.title,
     this.icon,
   );
