@@ -27,7 +27,7 @@ class MenuItems {
     Icons.star_border,
   );
 
-  static const all=
+  static const all=<MenuItems
 }
 
 class MenuScreen extends StatelessWidget {
