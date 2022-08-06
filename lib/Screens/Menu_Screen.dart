@@ -29,6 +29,7 @@ class MenuItems {
 
   static const all = <MenuItem>[
     payment,
+    payment,
   ];
 }
 
