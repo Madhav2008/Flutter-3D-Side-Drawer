@@ -67,14 +67,14 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-class name extends StatefulWidget {
-  name({Key? key}) : super(key: key);
+class HomeScreen extends StatefulWidget {
+  HomeScreen({Key? key}) : super(key: key);
 
   @override
-  State<name> createState() => _nameState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _nameState extends State<name> {
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Container();
