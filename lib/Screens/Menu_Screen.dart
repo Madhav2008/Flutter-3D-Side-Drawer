@@ -24,7 +24,7 @@ class MenuItems {
   );
   static const rateUs = MenuItem(
     'Rate Us',
-    Icons.payment,
+    Icons.star_border,
   );
 }
 
