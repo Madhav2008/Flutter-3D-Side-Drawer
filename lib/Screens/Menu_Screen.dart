@@ -11,3 +11,9 @@ class MenuScreen extends StatelessWidget {
     );
   }
 }
+class MenuItems {
+  static const payment = MenuItem(
+    'Payment',
+    Icons.payment,
+  );
+}
