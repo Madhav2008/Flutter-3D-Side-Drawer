@@ -18,7 +18,7 @@ class MenuScreen extends StatelessWidget {
       leading: Icon(item.icon),
       title: Text(item.title),
       onTap: () {},
-    );
+    ),
             Spacer(
               flex: 2,
             ),
