@@ -26,6 +26,8 @@ class MenuItems {
     'Rate Us',
     Icons.star_border,
   );
+
+  
 }
 
 class MenuScreen extends StatelessWidget {
