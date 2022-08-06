@@ -7,7 +7,7 @@ class MenuWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      onPressed: () =>ZoomDrawer.of(context),
+      onPressed: () => ZoomDrawer.of(context),
       icon: Icon(Icons.menu),
     );
   }
