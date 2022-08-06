@@ -33,7 +33,7 @@ class MenuItems {
     payment,
     payment,
     payment,
-    payment,
+    rateUs,
   ];
 }
 
