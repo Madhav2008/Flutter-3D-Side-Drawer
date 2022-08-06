@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_zoom_drawer/config.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import 'package:threed_sidebar_menu/Screens/Menu_Screen.dart';
 import 'package:threed_sidebar_menu/Screens/Payment_Screen.dart';
@@ -35,7 +36,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return ZoomDrawer(style: ,
+    return ZoomDrawer(style: DrawerStyle.style1,
       mainScreen: PaymentScreen(),
       menuScreen: MenuScreen(),
     );
