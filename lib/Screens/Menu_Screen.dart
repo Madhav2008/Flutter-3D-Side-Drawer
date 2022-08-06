@@ -18,7 +18,7 @@ class MenuItems {
     'Payment',
     Icons.payment,
   );
-  static const payment = MenuItem(
+  static const aboutUs = MenuItem(
     'Payment',
     Icons.payment,
   );
