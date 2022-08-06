@@ -44,7 +44,9 @@ class MenuScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.indigo,
-      body: SafeArea(child: Column(),),
+      body: SafeArea(
+        child: Column(),
+      ),
     );
   }
 }
