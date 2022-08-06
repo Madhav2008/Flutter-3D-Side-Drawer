@@ -23,7 +23,7 @@ class MenuItems {
     Icons.payment,
   );
   static const rateUs = MenuItem(
-    'Payment',
+    'Rate Us',
     Icons.payment,
   );
 }
