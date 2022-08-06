@@ -5,6 +5,6 @@ class MenuWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return IconButton(onPressed: onPressed, icon: icon);
+    return IconButton(onPressed: onPressed, icon: icon,);
   }
 }
