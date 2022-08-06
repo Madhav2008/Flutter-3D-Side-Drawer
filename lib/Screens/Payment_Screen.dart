@@ -8,7 +8,8 @@ class PaymentScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text('Payment Page'),centerTitle: true,
+        title: Text('Payment Page'),
+        centerTitle: true,
       ),
     );
   }
