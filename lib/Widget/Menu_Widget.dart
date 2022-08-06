@@ -4,5 +4,7 @@ class MenuWidget extends StatelessWidget {
   const MenuWidget({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {return IconButton(onPressed: onPressed, icon: icon)}
+  Widget build(BuildContext context) {
+    return IconButton(onPressed: onPressed, icon: icon);
+  }
 }
