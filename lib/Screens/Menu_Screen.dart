@@ -13,7 +13,12 @@ class MenuScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Spacer(),
-            ...MenuItems.all.map(buildMenuItem).toList(),
+            ListTile(
+      minLeadingWidth: 20,
+      leading: Icon(item.icon),
+      title: Text(item.title),
+      onTap: () {},
+    );
             Spacer(
               flex: 2,
             ),
