@@ -18,6 +18,10 @@ class MenuItems {
     'Payment',
     Icons.payment,
   );
+  static const payment = MenuItem(
+    'Payment',
+    Icons.payment,
+  );
 }
 
 class MenuScreen extends StatelessWidget {
