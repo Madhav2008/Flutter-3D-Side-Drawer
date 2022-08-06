@@ -28,12 +28,5 @@ class MenuScreen extends StatelessWidget {
     );
   }
 
-  Widget buildMenuItem(MenuItem item) {
-    return ListTile(
-      minLeadingWidth: 20,
-      leading: Icon(item.icon),
-      title: Text(item.title),
-      onTap: () {},
-    );
-  }
+ 
 }
