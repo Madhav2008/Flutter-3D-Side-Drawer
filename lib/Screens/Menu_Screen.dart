@@ -14,11 +14,11 @@ class MenuScreen extends StatelessWidget {
           children: <Widget>[
             Spacer(),
             ListTile(
-      minLeadingWidth: 20,
-      leading: Icon(item.icon),
-      title: Text(item.title),
-      onTap: () {},
-    ),
+              minLeadingWidth: 20,
+              leading: Icon(item.icon),
+              title: Text(item.title),
+              onTap: () {},
+            ),
             Spacer(
               flex: 2,
             ),
