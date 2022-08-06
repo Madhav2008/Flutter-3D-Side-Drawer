@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Menu {}
+class MenuItems {}
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({Key? key}) : super(key: key);
