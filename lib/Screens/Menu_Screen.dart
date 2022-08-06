@@ -63,7 +63,7 @@ class MenuScreen extends StatelessWidget {
     return ListTile(
       minLeadingWidth: 20,
       leading: Icon(item.icon),
-      title: Text(item.title),onTap: (canUpdate(oldWidget, newWidget)),
+      title: Text(item.title),onTap: (){},
     );
   }
 }
