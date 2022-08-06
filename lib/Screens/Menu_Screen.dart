@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';class MyWidget extends StatelessWidget {
-  const MyWidget({Key? key}) : super(key: key);
+import 'package:flutter/material.dart';class MenuScreen extends StatelessWidget {
+  const MenuScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
