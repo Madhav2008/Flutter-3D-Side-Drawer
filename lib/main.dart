@@ -79,6 +79,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return ZoomDrawer(mainScreen: null,);
+    return ZoomDrawer(mainScreen: null, menuScreen: null,);
   }
 }
