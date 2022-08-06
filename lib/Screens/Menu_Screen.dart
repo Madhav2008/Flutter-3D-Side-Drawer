@@ -31,7 +31,7 @@ class MenuItems {
     payment,
     payment,
     payment,
-    payment,
+    help,
     aboutUs,
     rateUs,
   ];
