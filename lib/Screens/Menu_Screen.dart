@@ -47,7 +47,7 @@ class MenuScreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [],
+          children: <Widget>[],
         ),
       ),
     );
