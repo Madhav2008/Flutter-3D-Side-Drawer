@@ -9,7 +9,7 @@ class PaymentScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: Text('Payment Page'),
-        centerTitle: true,
+        centerTitle: true,leading: ,
       ),
     );
   }
