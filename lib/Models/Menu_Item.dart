@@ -1,3 +1,3 @@
 import 'package:flutter/material.dart';
 
-class MenuItem {final}
+class MenuItem {final String}
