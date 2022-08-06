@@ -49,7 +49,7 @@ class MenuScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Spacer(),
-            ...MenuItems.all.map((e) => null),
+            ...MenuItems.all.map(),
             Spacer(
               flex: 2,
             ),
