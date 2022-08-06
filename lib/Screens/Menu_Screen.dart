@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class MenuItems {static const}
+class MenuItems {static const payment}
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({Key? key}) : super(key: key);
