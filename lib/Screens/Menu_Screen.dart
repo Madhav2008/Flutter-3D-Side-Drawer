@@ -59,5 +59,7 @@ class MenuScreen extends StatelessWidget {
     );
   }
 
-  Widget buildMenuItem(MenuItem item) {return ListTile()}
+  Widget buildMenuItem(MenuItem item) {
+    return ListTile();
+  }
 }
