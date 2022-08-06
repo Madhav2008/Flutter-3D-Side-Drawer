@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return ZoomDrawer(
-      style: DrawerStyle.style3,
+      style: DrawerStyle.style4,
       mainScreen: PaymentScreen(),
       menuScreen: MenuScreen(),
     );
