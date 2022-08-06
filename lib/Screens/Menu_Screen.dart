@@ -43,7 +43,8 @@ class MenuScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.indigo,body: SafeArea(),
+      backgroundColor: Colors.indigo,
+      body: SafeArea(),
     );
   }
 }
