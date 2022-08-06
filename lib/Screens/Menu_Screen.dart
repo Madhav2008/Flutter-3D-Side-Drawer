@@ -63,7 +63,7 @@ class MenuScreen extends StatelessWidget {
     return ListTile(
       minLeadingWidth: 20,
       leading: Icon(item.icon),
-      leading: Icon(item.icon),
+      title: Icon(item.icon),
     );
   }
 }
