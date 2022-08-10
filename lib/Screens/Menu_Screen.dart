@@ -105,7 +105,7 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {},
+              onTap: () {ZoomDrawer.of(context)!.toggle();},
             ),
             Spacer(
               flex: 2,
