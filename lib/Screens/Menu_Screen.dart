@@ -108,7 +108,6 @@ class MenuScreen extends StatelessWidget {
               ),
               onTap: () {
                 selected = '6';
-                print(selected);
               },
             ),
             Spacer(
