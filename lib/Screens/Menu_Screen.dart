@@ -19,6 +19,12 @@ class MenuScreen extends StatelessWidget {
               title: Text('Payment'),
               onTap: () {},
             ),
+            ListTile(
+              minLeadingWidth: 20,
+              leading: Icon(Icons.payment),
+              title: Text('Payment'),
+              onTap: () {},
+            ),
             Spacer(
               flex: 2,
             ),
