@@ -90,7 +90,9 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {selected = '5';},
+              onTap: () {
+                selected = '5';
+              },
             ),
             ListTile(
               minLeadingWidth: 20,
