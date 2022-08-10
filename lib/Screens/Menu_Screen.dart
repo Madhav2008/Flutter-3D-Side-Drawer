@@ -16,7 +16,7 @@ class MenuScreen extends StatelessWidget {
             ListTile(
               minLeadingWidth: 20,
               leading: Icon(Icons.payment),
-              title: Text('Payment'),
+              title: Text('Payment',style: ,),
               onTap: () {},
             ),
             Spacer(
