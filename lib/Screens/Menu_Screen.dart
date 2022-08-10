@@ -30,7 +30,7 @@ class MenuScreen extends StatelessWidget {
               ),
               onTap: () {
                 color = Colors.black26;
-                selected = '1';
+                selected = 1;
               },
             ),
             ListTile(
