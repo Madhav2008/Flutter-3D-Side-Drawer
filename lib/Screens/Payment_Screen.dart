@@ -11,7 +11,10 @@ class PaymentScreen extends StatelessWidget {
         backgroundColor: Colors.blue,
         title: Text('Payment Page'),
         centerTitle: true,
-        leading: MenuWidget(),
+        leading: IconButton(
+      onPressed: () => ZoomDrawer.of(context)!.toggle(),
+      icon: Icon(Icons.menu),
+    ),
       ),
     );
   }
