@@ -33,7 +33,8 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {MenuItem currentItem
+class _HomeScreenState extends State<HomeScreen> {
+  MenuItem currentItem = MenuItems.payment;
   @override
   Widget build(BuildContext context) {
     return ZoomDrawer(
@@ -44,5 +45,8 @@ class _HomeScreenState extends State<HomeScreen> {MenuItem currentItem
     );
   }
 
-  Widget getScreen() {switch(currentItem){}}
+  Widget getScreen() {
+    switch (currentItem) {
+    }
+  }
 }
