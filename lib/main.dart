@@ -44,5 +44,5 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget getScreen() {switch(){}}
+  Widget getScreen() {switch(currentItem){}}
 }
