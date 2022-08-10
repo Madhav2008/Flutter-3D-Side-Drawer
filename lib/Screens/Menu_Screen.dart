@@ -2,12 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:threed_sidebar_menu/Models/Menu_Item.dart';
 
 class MenuScreen extends StatelessWidget {
-  // const MenuScreen({Key? key}) : super(key: key);
+  const MenuScreen({Key? key}) : super(key: key);
 
-  Color color = Colors.transparent;
   @override
   Widget build(BuildContext context) {
-    var selected = '1';
     return Scaffold(
       backgroundColor: Colors.indigo,
       body: SafeArea(
@@ -16,7 +14,6 @@ class MenuScreen extends StatelessWidget {
           children: <Widget>[
             Spacer(),
             ListTile(
-              tileColor: color,
               minLeadingWidth: 20,
               leading: Icon(
                 Icons.payment,
@@ -28,10 +25,7 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {
-                color = Colors.black26;
-                selected = '1';
-              },
+              onTap: () {},
             ),
             ListTile(
               minLeadingWidth: 20,
@@ -45,9 +39,7 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {
-                selected = '2';
-              },
+              onTap: () {},
             ),
             ListTile(
               minLeadingWidth: 20,
@@ -61,9 +53,7 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {
-                selected = '3';
-              },
+              onTap: () {},
             ),
             ListTile(
               minLeadingWidth: 20,
@@ -77,9 +67,7 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {
-                selected = '4';
-              },
+              onTap: () {},
             ),
             ListTile(
               minLeadingWidth: 20,
@@ -93,9 +81,7 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {
-                selected = '5';
-              },
+              onTap: () {},
             ),
             ListTile(
               minLeadingWidth: 20,
@@ -109,9 +95,7 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {
-                selected = '6';
-              },
+              onTap: () {},
             ),
             Spacer(
               flex: 2,
