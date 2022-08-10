@@ -24,7 +24,9 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {ZoomDrawer.of(context)!.toggle()},
+              onTap: () {
+                ZoomDrawer.of(context)!.toggle();
+              },
             ),
             ListTile(
               minLeadingWidth: 20,
