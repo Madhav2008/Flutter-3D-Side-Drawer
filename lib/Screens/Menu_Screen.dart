@@ -18,7 +18,7 @@ class MenuScreen extends StatelessWidget {
               leading: Icon(Icons.payment),
               title: Text(
                 'Payment',
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Colors.white,),
               ),
               onTap: () {},
             ),
