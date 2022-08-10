@@ -33,7 +33,7 @@ class MenuScreen extends StatelessWidget {
                     builder: (builder) => PaymentScreen(),
                   ),
                 );
-                ZoomDrawer.of(context)!.toggle();
+                // ZoomDrawer.of(context)!.toggle();
               },
             ),
             ListTile(
