@@ -62,7 +62,7 @@ class MenuScreen extends StatelessWidget {
                 color: Colors.white,
               ),
               title: Text(
-                'help',
+                'Help',
                 style: TextStyle(
                   color: Colors.white,
                 ),
