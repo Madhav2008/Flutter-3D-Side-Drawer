@@ -59,7 +59,7 @@ class MenuScreen extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                selected = '1';
+                selected = '3';
               },
             ),
             ListTile(
