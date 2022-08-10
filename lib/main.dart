@@ -42,5 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
       mainScreen: PaymentScreen(),
       menuScreen: MenuScreen(),
     );
-  }Widget getScreen(){}
+  }
+
+  Widget getScreen() {}
 }
