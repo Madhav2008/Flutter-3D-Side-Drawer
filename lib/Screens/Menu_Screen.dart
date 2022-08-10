@@ -28,7 +28,7 @@ class MenuScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: builder),
+                  MaterialPageRoute(builder: (builder)),
                 );
                 ZoomDrawer.of(context)!.toggle();
               },
