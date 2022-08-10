@@ -15,7 +15,8 @@ class MenuScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Spacer(),
-            ListTile(selectedTileColor: Colors.black26,
+            ListTile(
+              selectedTileColor: Colors.black26,
               minLeadingWidth: 20,
               leading: Icon(
                 Icons.payment,
