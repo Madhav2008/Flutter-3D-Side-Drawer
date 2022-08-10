@@ -9,7 +9,7 @@ class PaymentScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: Text('Payment Page'),
+        title: Text('Payment'),
         centerTitle: true,
         leading: IconButton(
           onPressed: () => ZoomDrawer.of(context)!.toggle(),
