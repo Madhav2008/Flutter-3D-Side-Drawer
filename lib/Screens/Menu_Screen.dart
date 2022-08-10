@@ -34,7 +34,7 @@ class MenuScreen extends StatelessWidget {
                 color: Colors.white,
               ),
               title: Text(
-                'promo',
+                'Promo',
                 style: TextStyle(
                   color: Colors.white,
                 ),
