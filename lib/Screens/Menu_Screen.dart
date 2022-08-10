@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
+import 'package:threed_sidebar_menu/Screens/Payment_Screen.dart';
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({Key? key}) : super(key: key);
@@ -28,7 +29,7 @@ class MenuScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (builder)=>),
+                  MaterialPageRoute(builder: (builder)=>PaymentScreen()),
                 );
                 ZoomDrawer.of(context)!.toggle();
               },
