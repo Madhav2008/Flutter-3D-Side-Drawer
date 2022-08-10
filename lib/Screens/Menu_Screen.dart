@@ -6,7 +6,7 @@ class MenuScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    num selected = 1;
+    var selected = '1';
     Color color = Colors.transparent;
     return Scaffold(
       backgroundColor: Colors.indigo,
@@ -30,7 +30,7 @@ class MenuScreen extends StatelessWidget {
               ),
               onTap: () {
                 color = Colors.black26;
-                selected = 1;
+                selected = '1';
               },
             ),
             ListTile(
@@ -46,7 +46,7 @@ class MenuScreen extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                selected = '2;
+                selected = '2';
               },
             ),
             ListTile(
