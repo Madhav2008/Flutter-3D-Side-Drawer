@@ -7,7 +7,7 @@ class MenuScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var selected = '0';
-    var selected = '0';
+    var selectedColor = '0';
     return Scaffold(
       backgroundColor: Colors.indigo,
       body: SafeArea(
