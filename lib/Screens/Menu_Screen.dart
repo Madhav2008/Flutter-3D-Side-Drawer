@@ -26,7 +26,7 @@ class MenuScreen extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                ZoomDrawer.of(context)!.toggle();
+                ZoomDrawer.of(context)!.close();
               },
             ),
             ListTile(
