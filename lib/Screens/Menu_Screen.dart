@@ -16,7 +16,6 @@ class MenuScreen extends StatelessWidget {
           children: <Widget>[
             Spacer(),
             ListTile(
-              selectedTileColor: Colors.black26,
               minLeadingWidth: 20,
               leading: Icon(
                 Icons.payment,
