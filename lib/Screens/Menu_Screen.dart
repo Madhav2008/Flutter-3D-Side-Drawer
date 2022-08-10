@@ -76,7 +76,7 @@ class MenuScreen extends StatelessWidget {
                 color: Colors.white,
               ),
               title: Text(
-                'Payment',
+                'About Us',
                 style: TextStyle(
                   color: Colors.white,
                 ),
