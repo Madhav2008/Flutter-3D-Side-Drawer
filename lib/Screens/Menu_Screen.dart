@@ -30,7 +30,7 @@ class MenuScreen extends StatelessWidget {
             ListTile(
               minLeadingWidth: 20,
               leading: Icon(
-                Icons.payment,
+                Icons.card_giftcard,
                 color: Colors.white,
               ),
               title: Text(
