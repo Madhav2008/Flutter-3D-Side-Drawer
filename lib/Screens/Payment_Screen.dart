@@ -12,7 +12,7 @@ class PaymentScreen extends StatelessWidget {
         title: Text('Payment'),
         centerTitle: true,
         leading: IconButton(
-          onPressed: () => ZoomDrawer.of(context)!.toggle(),
+          onPressed: () => ZoomDrawer.of(context)!.open(),
           icon: Icon(Icons.menu),
         ),
       ),
