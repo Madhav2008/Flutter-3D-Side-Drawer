@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return ZoomDrawer(
       menuBackgroundColor: Colors.indigo,
       // slideWidth: MediaQuery.of(context).size.width,
-      mainScreen: PaymentScreen(),
+      mainScreen: getScreen(),
       menuScreen: MenuScreen(),
     );
   }
