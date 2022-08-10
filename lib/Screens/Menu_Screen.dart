@@ -28,7 +28,7 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {color:Colors.red,
+              onTap: () {color:Colors.black26,
                 selected = '1';
               },
             ),
