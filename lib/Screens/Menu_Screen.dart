@@ -25,7 +25,7 @@ class MenuScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              onTap: () {
+              onTap: () {Navigator.push(context, route)
                 ZoomDrawer.of(context)!.toggle();
               },
             ),
