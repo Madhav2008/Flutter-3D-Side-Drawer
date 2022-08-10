@@ -29,7 +29,7 @@ class MenuScreen extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                // color:
+                color:
                 Colors.black26;
                 selected = '1';
               },
