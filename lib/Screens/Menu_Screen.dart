@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:threed_sidebar_menu/Models/Menu_Item.dart';
 
 class MenuScreen extends StatelessWidget {
-  const MenuScreen({Key? key}) : super(key: key);
+  // const MenuScreen({Key? key}) : super(key: key);
 
+  Color color = Colors.transparent;
   @override
-    Color color = Colors.transparent;
   Widget build(BuildContext context) {
     var selected = '1';
     return Scaffold(
